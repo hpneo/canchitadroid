@@ -1,0 +1,19 @@
+<resources>
+  <style name="AppTheme" parent="@style/Theme.PageIndicatorDefaults">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  
+  <style name="listView">
+    <item name="android:layout_margin">0dp</item>
+    <item name="android:dividerHeight">0.1dp</item>
+    <item name="android:divider">#736f61</item>
+  </style>
+  
+  <style name="listViewItem">
+    <item name="android:background">@drawable/listviewitem_selector</item>
+    <item name="android:gravity">left|center</item>
+    <item name="android:layout_margin">4dp</item>
+    <item name="android:padding">0dp</item>
+  </style>
+
+</resources>
